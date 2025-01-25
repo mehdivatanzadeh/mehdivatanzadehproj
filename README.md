@@ -7,5 +7,5 @@
 - `README.md`: توضح و کاربرد پروژه
 ## Sample Issue created in the repository
 
-**Title:** Bug in LaTeX compilation
+**Title:** hi
 **Description:** hello

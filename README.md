@@ -8,4 +8,4 @@
 ## Sample Issue created in the repository
 
 **Title:** Bug in LaTeX compilation
-**Description:** There seems to be an issue with the LaTeX file not compiling correctly when using GitHub Actions.
+**Description:** hello

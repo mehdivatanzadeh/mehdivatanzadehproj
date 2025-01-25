@@ -114,10 +114,18 @@ Fugitive: For working with Git within Vim.\\
 
 YouCompleteMe: For intelligent auto-completion.\\
 
+\subsection{Memory profiling}
+\subsubsection{Memory Leak}
+Memory leaks occur when a program allocates memory but fails to release it back to the system after it’s done using it. This causes the memory to be wasted and unavailable for other processes, leading to increased memory usage and potential system slowdowns or crashes.\\
 
+\subsubsection{Memory profilers}
+Valgrind helps in memory debugging and leak detection by tracking memory allocations and deallocations. It's especially useful for identifying memory that was allocated but never freed.\\
+Valgrind detects memory leaks by:\\
 
+Monitoring Memory: Tracks and reports unfreed memory.\\
 
+Providing Logs: Offers detailed reports showing where leaks occur.\\
 
-
+Automatic Checks: Automatically checks memory management during program execution.\\
 
 \end{document}

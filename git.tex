@@ -1,0 +1,83 @@
+\documentclass{article}
+
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[english]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with `a4paper' for UK/EU standard size
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{section 1}
+\author{Mehdi Vatanzadeh}
+
+\begin{document}
+\maketitle
+
+\section{Git and GitHub}
+
+\subsection{Repository Initialization and Commits}
+\textbf{Step 1: Creating a GitHub Repository}
+
+\\Go to GitHub and sign in to your account.\\
+
+Click on the + icon in the top right corner and select "New repository."\\
+
+Fill in the repository details:\\
+
+Repository name: Choose a name like FinalAssignment or something unique.\\
+
+Description: Add a brief description of your project.\\
+
+Visibility: Choose public or private based on your preference.\\
+
+Click "Create repository."
+\\
+\textbf{Step 2: Cloning the Repository to Your Local Machine}\\
+
+On the repository page, click on the "Code" button and copy the repository URL.\\
+
+Open your terminal or Git Bash on your computer.\\
+
+Navigate to the directory where you want to clone the repository\\
+
+Clone the repository\\
+
+\textbf{Step 3: Initializing and Committing Changes}\\
+
+Navigate into your repository folder\\
+
+Create your LaTeX document, for example, a file called assignment.tex\\
+
+Add the files to staging\\
+
+Commit the changes\\
+
+\textbf{Step 4: Pushing Changes to GitHub}\\
+
+Push your initial commit to the GitHub repository\\
+
+
+\subsection{GitHub Actions for LaTeX Compilation}\\
+
+Setting Up GitHub Actions:\\
+In your repository, navigate to the "Actions" tab.\\
+
+Click "Set up a workflow yourself" or choose a template that fits your needs.\\
+
+Create a .github/workflows directory in your project folder if it doesn't exist.\\
+
+Inside this directory, create a YAML file for your workflow, for example, latex.yml\\
+
+Commit and push the workflow file\\
+
+
+
+
+
+\end{document}

@@ -1,6 +1,6 @@
 # mehdivatanzadehproj
 # final assignment repository
-# هدف از این پروژه یادگیری و مروری بر انجه که این ترم یاد گرفتیم بود.
+# هدف از این پروژه یادگیری و مروری بر انچه که این ترم در کارگاه کامپیوتر یاد گرفتیم، بود.
 ## کلیات
 - `git.tex`: main latex file
 - `.github/workflows/main.yml`: اکشن گیت هاب برای تبدیل فایل لتک به پی دی اف
